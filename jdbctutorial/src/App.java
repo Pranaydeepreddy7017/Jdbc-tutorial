@@ -5,11 +5,11 @@ public class App {
         try {
         String url1 ="jdbc:mysql://localhost:3306/student_database";
         String uname="dev";
-        String password="Pranay@1606";
-        String query1 = "select * from student";
-        String query2 = "insert into student values (0,'suryansh','13')";
-        String query3 = "delete from student where class = '12'";
-        String query4 = "update student set class='9' where class= '8'";
+        String password="Pranay@1606"; 
+        String query1 = "select * from student";                            // select query 
+        String query2 = "insert into student values (0,'suryansh','13')";   // insert query
+        String query3 = "delete from student where class = '12'";           // delete query
+        String query4 = "update student set class='9' where class= '8'";    // update query
         String query5 = "select * from student";
 
         System.out.println("Hello, World!");
